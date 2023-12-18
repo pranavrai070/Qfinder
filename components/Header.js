@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 
-const Header = () => {
+export default function Header() {
   const countries = ["India", "Canada", "Australia"]; // Add more countries as needed
 
   return (
@@ -62,4 +62,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+// export default Header;

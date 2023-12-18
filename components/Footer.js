@@ -1,4 +1,5 @@
-const Footer=()=>{
+import React from "react";
+export default function Footer(){
     return (
         <div className="bg-gray-800 text-white p-8">
         <div className="flex flex-wrap justify-center mb-8">
@@ -23,4 +24,4 @@ const Footer=()=>{
     )
    };
    
-   export default Footer;
+// export default Footer;

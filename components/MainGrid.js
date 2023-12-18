@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, CardContent, Button, IconButton, Typography, Grid } from '@mui/material';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 
-const MainGrid = () => {
+export default function MainGrid() {
     const data = [
         { id: 1, logo: 'Logo1', phoneNumber: '+1234567890' },
         { id: 2, logo: 'Logo2', phoneNumber: '+9876543210' },
@@ -57,4 +57,4 @@ const handleCopyToClipboard = (text) => {
   console.log(`Copying: ${text}`);
 };
 
-export default MainGrid;
+// export default MainGrid;

@@ -2,7 +2,7 @@ import React from "react";
 import CheckIcon from "@mui/icons-material/Check";
 import { Card, CardContent, Typography, Grid } from '@mui/material';
 
-const Info = () => {
+export default function Info(){
   const HelpQuestions = [
     {
       id: 1,
@@ -96,4 +96,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+// export default Info;

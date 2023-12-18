@@ -2,7 +2,7 @@
 import React from "react";
 import { Card, CardContent, Button, Typography, Grid } from "@mui/material";
 
-const RentalNumbers = () => {
+export default function RentalNumbers(){
   const data = [
     { id: 1, logo: "Logo1", phoneNumber: "+1234567890", carrier: "EE" },
     { id: 2, logo: "Logo2", phoneNumber: "+9876543210", carrier: "EE" },
@@ -43,4 +43,4 @@ const RentalNumbers = () => {
   );
 };
 
-export default RentalNumbers;
+// export default RentalNumbers;

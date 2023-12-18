@@ -1,4 +1,6 @@
-const SideBar = () => {
+import React from "react";
+
+export default function SideBar() {
   const SideBarData = [
     {
       id: 1,
@@ -41,4 +43,4 @@ const SideBar = () => {
   );
 };
 
-export default SideBar;
+// export default SideBar;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => {
+export default function Hero(){
   return (
     <div className="mx-4"> {/* Add margin from the left side using Tailwind CSS */}
       <h1 className="text-4xl font-bold mb-4">Free SMS Verification Code Bypass Service</h1> {/* Apply heading styles */}
@@ -12,4 +12,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+// export default Hero;
